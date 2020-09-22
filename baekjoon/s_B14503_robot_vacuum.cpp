@@ -1,4 +1,3 @@
-// 밍구 오빠 코드 참고
 #include <iostream>
 #include <cstdio>
 #include <queue>
