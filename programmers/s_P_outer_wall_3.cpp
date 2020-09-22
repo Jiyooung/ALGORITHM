@@ -1,4 +1,4 @@
-// ¼º°øº», ind¾ø¾Ö°í cho¸¦ next_permutationÇÏ´Ï µÊ
+// ind ì—†ì• ê³  choë¥¼ next_permutation 
 #include <cstdio>
 #include <iostream>
 #include <algorithm>
