@@ -1,6 +1,6 @@
 /*
-1238 - ÆÄÆ¼
-priority_queue »ç¿ë
+1238 - íŒŒí‹°
+priority_queue ì‚¬ìš©
 */
 #include <cstdio>
 #include <iostream>
