@@ -1,10 +1,10 @@
 /*
-백준 1767번 : N-Rook II
+baekjoon 1767 : N-Rook II
+solved by JY
 dynamic programming > top-down 방식
 행 기준으로 0개, 1개, 2개인 경우로 생각
 2개인 경우는 행에 2개, 열에 2개로 나눠서 생각
 */
-
 #include <iostream>
 #include <cstdio>
 #include <algorithm>
