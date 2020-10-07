@@ -1,6 +1,6 @@
 # JY_ALGORITHM
 
-● Introduction
+- ***Introduction***
 
     💗 Member : JYSim
     ⭐ Start Date : 2020. 08. 20
