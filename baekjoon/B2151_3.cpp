@@ -1,5 +1,5 @@
 /*
-baekjoon 2151 : 거울 설치
+baekjoon 2151 : 거울 설치 거울 설치
 solved by JY
 */
 #include <algorithm>
