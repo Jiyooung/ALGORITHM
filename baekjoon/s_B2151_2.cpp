@@ -1,6 +1,7 @@
 /*
 baekjoon 2151 : 거울 설치
 solved by JY
+DATE : 2020.10.09
 bfs를 이용하여 풀이
 */
 #include <algorithm>
@@ -16,7 +17,6 @@ using namespace std;
 int N;
 char H[52][52] = {0,};
 int mirror[52][52][4] = {0,};	// mirror[A][B][C] = D : (A,B)에서 빛이 C방향으로 진행 시 지금까지 설치한 문의 갯수는 D개
-
 int dx[4] = {0, 0, -1, 1};  // 상,하,좌,우
 int dy[4] = {-1, 1, 0, 0};
 int s_x, s_y, e_x, e_y;
