@@ -40,9 +40,9 @@ void dfs(int x, int y, int dir, int ret) {
 			if (mirror[c_y][c_x][dir] == 1) {
 				return;
 			}
-			if (mirror[c_y][c_x][4] == 0) {
-				mirror[c_y][c_x][4] = 1;
-				mirror[c_y][c_x][dir] = 1;
+			if (mirror[c_y][c_x][4] == 0) {	// 거울 없음
+				mirror[c_y][c_x][4] = 1;	// / 거울
+				mirror[c_y][c_x][dir] = 1;	
 				if (dir == 0)
 					dfs(c_x, c_y, 3, ret + 1);
 				else if (dir == 1)
@@ -55,7 +55,7 @@ void dfs(int x, int y, int dir, int ret) {
 				for (int i = 0; i < 4; i++) {
 					mirror[c_y][c_x][i] = 0;
 				}
-				mirror[c_y][c_x][4] = 2;
+				mirror[c_y][c_x][4] = 2;	// \ 거울
 				mirror[c_y][c_x][dir] = 1;
 				if (dir == 0)
 					dfs(c_x, c_y, 2, ret + 1);
