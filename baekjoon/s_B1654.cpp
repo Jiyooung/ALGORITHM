@@ -1,5 +1,5 @@
 /*
-baekjoon 1654 : ·£¼± ÀÚ¸£±â
+baekjoon 1654 : ëœì„  ìë¥´ê¸°
 solved by JY
 */
 #include <iostream>
@@ -34,7 +34,7 @@ int parametric_iter(long long int l, long long int r) {
 		int c = check(mid);
 
 		if (c) {
-			l = mid;	// Á¤´äÀÌ µÇ´Â °ÍÀº °è¼Ó Æ÷ÇÔÇØ¼­ ÇØ¾ß ÇÔ
+			l = mid;	// ì •ë‹µì´ ë˜ëŠ” ê²ƒì€ ê³„ì† í¬í•¨í•´ì„œ í•´ì•¼ í•¨
 			ret = mid;
 		}
 		else {

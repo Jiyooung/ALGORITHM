@@ -1,7 +1,6 @@
 /*
-baekjoon 14503 : ¡¤?¨¬¢¯ ??¨ù?¡¾?
+baekjoon 14503 : ë¡œë´‡ì²­ì†Œê¸°
 solved by JY
-???? ?¨ö??
 */
 #include <iostream>
 #include <cstdio>

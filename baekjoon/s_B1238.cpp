@@ -1,7 +1,7 @@
 /*
-baekjoon 1238 : ÆÄÆ¼
+baekjoon 1238 : íŒŒí‹°
 solved by JY
-priority_queue »ç¿ë
+priority_queue ì‚¬ìš©
 */
 #include <iostream>
 #include <cstdio>

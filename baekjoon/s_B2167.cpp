@@ -1,5 +1,5 @@
 /*
-baekjoon 2167 : 2Â÷¿ø ¹è¿­ÀÇ ÇÕ
+baekjoon 2167 : 2ì°¨ì› ë°°ì—´ì˜ í•©
 solved by JY
 */
 #include <iostream>

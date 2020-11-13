@@ -1,7 +1,7 @@
 /*
-baekjoon 11404 : ÇÃ·ÎÀÌµå
+baekjoon 11404 : í”Œë¡œì´ë“œ
 solved by JY
-ÇÃ·ÎÀÌµå-¿Í¼£ ¾Ë°í¸®Áò »ç¿ë
+í”Œë¡œì´ë“œ-ì™€ìƒ¬ ì•Œê³ ë¦¬ì¦˜ ì‚¬ìš©
 */
 #include <iostream>
 #include <cstdio>
@@ -32,7 +32,7 @@ int main(void) {
 
 	sort(v.begin(), v.end());
 
-	for (int i = 0; i < m; i++) {	// ÃÖ´Ü °Å¸®¸¸ ÀúÀå
+	for (int i = 0; i < m; i++) {	// ìµœë‹¨ ê±°ë¦¬ë§Œ ì €ì¥
 		if (d[v[i][0]][v[i][1]] == 0)
 			d[v[i][0]][v[i][1]] = v[i][2];
 	}
@@ -48,7 +48,7 @@ int main(void) {
 		}
 	}
 
-	for (int i = 1; i <= n; i++)	// ÇÃ·ÎÀÌµå-¿Í¼£ ¾Ë°í¸®Áò
+	for (int i = 1; i <= n; i++)	// í”Œë¡œì´ë“œ-ì™€ìƒ¬ ì•Œê³ ë¦¬ì¦˜
 		for (int j = 1; j <= n; j++)
 			for (int k = 1; k <= n; k++)
 				ans[j][k] = min(ans[j][k], ans[j][i] + ans[i][k]);

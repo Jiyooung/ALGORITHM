@@ -1,8 +1,8 @@
 /*
-baekjoon 2151 : °Å¿ï ¼³Ä¡
+baekjoon 2151 : ê±°ìš¸ ì„¤ì¹˜
 solved by JY
 DATE : 2020.10.09
-bfs¸¦ ÀÌ¿ëÇÏ¿© Ç®ÀÌ
+bfsë¥¼ ì´ìš©í•˜ì—¬ í’€ì´
 */
 #include <algorithm>
 #include <cstdio>
@@ -16,20 +16,20 @@ using namespace std;
 
 int N;
 char H[52][52] = {0,};
-int mirror[52][52][4] = {0,};	// mirror[A][B][C] = D : (A,B)¿¡¼­ ºûÀÌ C¹æÇâÀ¸·Î ÁøÇà ½Ã Áö±İ±îÁö ¼³Ä¡ÇÑ ¹®ÀÇ °¹¼ö´Â D°³
-int dx[4] = {0, 0, -1, 1};  // »ó,ÇÏ,ÁÂ,¿ì
+int mirror[52][52][4] = {0,};	// mirror[A][B][C] = D : (A,B)ì—ì„œ ë¹›ì´ Cë°©í–¥ìœ¼ë¡œ ì§„í–‰ ì‹œ ì§€ê¸ˆê¹Œì§€ ì„¤ì¹˜í•œ ë¬¸ì˜ ê°¯ìˆ˜ëŠ” Dê°œ
+int dx[4] = {0, 0, -1, 1};  // ìƒ,í•˜,ì¢Œ,ìš°
 int dy[4] = {-1, 1, 0, 0};
 int s_x, s_y, e_x, e_y;
 int ans = INF;
 
 int change_dir(int dir, int shape) {
-    if (shape == 0) {  // / °Å¿ïÀÏ °æ¿ì ¹æÇâ ÀüÈ¯
+    if (shape == 0) {  // / ê±°ìš¸ì¼ ê²½ìš° ë°©í–¥ ì „í™˜
         if (dir == 0) return 3;
         if (dir == 1) return 2;
         if (dir == 2) return 1;
         if (dir == 3) return 0;
     }
-    if (shape == 1) {  // \ °Å¿ïÀÏ °æ¿ì ¹æÇâ ÀüÈ¯
+    if (shape == 1) {  // \ ê±°ìš¸ì¼ ê²½ìš° ë°©í–¥ ì „í™˜
         if (dir == 0) return 2;
         if (dir == 1) return 3;
         if (dir == 2) return 0;
@@ -46,7 +46,7 @@ int main(void) {
 
     cin >> N;
 
-    for (int i = 0; i < N; i++) {	// ÀÔ·Â
+    for (int i = 0; i < N; i++) {	// ì…ë ¥
         for (int j = 0; j < N; j++) {
             cin >> H[i][j];
             if (H[i][j] == '#' && flag) {
@@ -60,22 +60,22 @@ int main(void) {
         }
     }
 
-    fill(mirror[0][0], mirror[52][0], INF);	// mirror ¹è¿­ INF·Î ÃÊ±âÈ­
+    fill(mirror[0][0], mirror[52][0], INF);	// mirror ë°°ì—´ INFë¡œ ì´ˆê¸°í™”
 
     queue<vector<int> > q;
 
-    for (int i = 0; i < 4; i++) {	// ½ÃÀÛ¹® »ó,ÇÏ,ÁÂ,¿ì 
+    for (int i = 0; i < 4; i++) {	// ì‹œì‘ë¬¸ ìƒ,í•˜,ì¢Œ,ìš° 
         q.push({s_y, s_x, i});
 		mirror[s_y][s_x][i] = 0;
     }
 
     while (!q.empty()) {	// bfs
-        int y = q.front().at(0);	// ÇöÀçÄ­
+        int y = q.front().at(0);	// í˜„ì¬ì¹¸
         int x = q.front().at(1);
         int dir = q.front().at(2);
         q.pop();
 
-        int c_y = y + dy[dir];		// ´ÙÀ½Ä­
+        int c_y = y + dy[dir];		// ë‹¤ìŒì¹¸
         int c_x = x + dx[dir];
         int c_dir = 0;
 
@@ -87,26 +87,26 @@ int main(void) {
                 q.push({c_y, c_x, dir});
             }
         } else if (H[c_y][c_x] == '!') {
-            if (mirror[c_y][c_x][dir] > mirror[y][x][dir]) {  // °Å¿ï ¾øÀ½
+            if (mirror[c_y][c_x][dir] > mirror[y][x][dir]) {  // ê±°ìš¸ ì—†ìŒ
                 if (mirror[c_y][c_x][dir] > mirror[y][x][dir]) {
                     mirror[c_y][c_x][dir] = mirror[y][x][dir];
                     q.push({c_y, c_x, dir});
                 }
-                c_dir = change_dir(dir, 0);  // / °Å¿ïÀÏ °æ¿ì ÀüÈ¯µÈ ¹æÇâ
+                c_dir = change_dir(dir, 0);  // / ê±°ìš¸ì¼ ê²½ìš° ì „í™˜ëœ ë°©í–¥
                 if (mirror[c_y][c_x][c_dir] > mirror[y][x][dir] + 1) {
                     mirror[c_y][c_x][c_dir] = mirror[y][x][dir] + 1;
                     q.push({c_y, c_x, c_dir});
                 }
-                c_dir = change_dir(dir, 1);  // \ °Å¿ïÀÏ °æ¿ì ÀüÈ¯µÈ ¹æÇâ
+                c_dir = change_dir(dir, 1);  // \ ê±°ìš¸ì¼ ê²½ìš° ì „í™˜ëœ ë°©í–¥
                 if (mirror[c_y][c_x][c_dir] > mirror[y][x][dir] + 1) {
                     mirror[c_y][c_x][c_dir] = mirror[y][x][dir] + 1;
                     q.push({c_y, c_x, c_dir});
                 }
             }
-        } else if (H[c_y][c_x] == '#' && c_y == e_y && c_x == e_x) {  // µµÂø ¹®ÀÏ °æ¿ì
+        } else if (H[c_y][c_x] == '#' && c_y == e_y && c_x == e_x) {  // ë„ì°© ë¬¸ì¼ ê²½ìš°
             if (mirror[c_y][c_x][dir] > mirror[y][x][dir]) {
                 mirror[c_y][c_x][dir] = mirror[y][x][dir];
-                ans = min(ans, mirror[c_y][c_x][dir]);	// ¼³Ä¡ÇÒ °Å¿ï ÃÖ¼Ò °³¼ö È®ÀÎ
+                ans = min(ans, mirror[c_y][c_x][dir]);	// ì„¤ì¹˜í•  ê±°ìš¸ ìµœì†Œ ê°œìˆ˜ í™•ì¸
             }
         }
     }

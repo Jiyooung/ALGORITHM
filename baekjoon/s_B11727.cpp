@@ -1,7 +1,7 @@
 /*
-baekjoon 11727 : 2xn Å¸ÀÏ¸µ 2
+baekjoon 11727 : 2xn íƒ€ì¼ë§ 2
 solved by JY
-´ÙÀÌ³ª¹Í ÇÁ·Î±×·¡¹Ö »ç¿ë
+ë‹¤ì´ë‚˜ë¯¹ í”„ë¡œê·¸ë˜ë° ì‚¬ìš©
 */
 #include <iostream>
 using namespace std;

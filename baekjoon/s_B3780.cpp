@@ -1,5 +1,5 @@
 /*
-baekjoon 3780 : ³×Æ®¿öÅ© ¿¬°á
+baekjoon 3780 : ë„¤íŠ¸ì›Œí¬ ì—°ê²°
 solved by JY
 */
 #include <iostream>

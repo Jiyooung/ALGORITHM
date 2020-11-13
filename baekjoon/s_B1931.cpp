@@ -1,5 +1,5 @@
 /*
-baekjoon 1931 : È¸ÀÇ½Ç¹èÁ¤
+baekjoon 1931 : íšŒì˜ì‹¤ë°°ì •
 solved by JY
 */
 #include <iostream>
@@ -11,8 +11,8 @@ using namespace std;
 pair <int, int> p[100001];
 
 /*
-¾Æ·¡Ã³·³ ±¸Á¶Ã¼·Î ÇØ¼­ sort ÇÒ¶§
-sort (a, a+n); ±×³É ÇÏ¸é µÊ
+ì•„ë˜ì²˜ëŸ¼ êµ¬ì¡°ì²´ë¡œ í•´ì„œ sort í• ë•Œ
+sort (a, a+n); ê·¸ëƒ¥ í•˜ë©´ ë¨
 
 struct ti {
 	int st;

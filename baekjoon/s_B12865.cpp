@@ -1,8 +1,8 @@
 /*
-baekjoon 12865 : Æò¹üÇÑ ¹è³¶
+baekjoon 12865 : í‰ë²”í•œ ë°°ë‚­
 solved by JY
 DATE : 2020.11.13
-1Â÷¿ø DP »ç¿ë - ±âÁØ : ¹«°Ô
+1ì°¨ì› DP ì‚¬ìš© - ê¸°ì¤€ : ë¬´ê²Œ
 */
 #include <cstdio>
 #include <iostream>

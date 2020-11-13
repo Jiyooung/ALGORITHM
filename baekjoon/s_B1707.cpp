@@ -1,5 +1,5 @@
 /*
-baekjoon 1707 : ÀÌºĞ ±×·¡ÇÁ
+baekjoon 1707 : ì´ë¶„ ê·¸ë˜í”„
 solved by JY
 */
 #include <iostream>
@@ -19,12 +19,12 @@ int bfs(vector<vector<int>> input, int group[], int v) {
 		q.pop();
 
 		for (int i = 0; i < input[f].size(); i++) {
-			if (group[f] == group[input[f][i]])	// ¿¬°áµÈ Á¤Á¡°ú ±×·ìÀÌ °°À» °æ¿ì
+			if (group[f] == group[input[f][i]])	// ì—°ê²°ëœ ì •ì ê³¼ ê·¸ë£¹ì´ ê°™ì„ ê²½ìš°
 				return 0;
-			else if (group[input[f][i]] == group[f] % 2 + 1)	// ¿¬°áµÈ Á¤Á¡°ú ±×·ìÀÌ ´Ù¸¦ °æ¿ì
+			else if (group[input[f][i]] == group[f] % 2 + 1)	// ì—°ê²°ëœ ì •ì ê³¼ ê·¸ë£¹ì´ ë‹¤ë¥¼ ê²½ìš°
 				continue;
 
-			// ¿¬°áµÈ Á¤Á¡ÀÌ ±×·ìÀÌ ¾øÀ» °æ¿ì queue¿¡ Ãß°¡ ÈÄ ±×·ì ÁöÁ¤
+			// ì—°ê²°ëœ ì •ì ì´ ê·¸ë£¹ì´ ì—†ì„ ê²½ìš° queueì— ì¶”ê°€ í›„ ê·¸ë£¹ ì§€ì •
 			q.push(input[f][i]);
 			group[input[f][i]] = group[f] % 2 + 1;
 		}

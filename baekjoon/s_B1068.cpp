@@ -1,7 +1,7 @@
 /*
-baekjoon 1068 : Æ®¸®
+baekjoon 1068 : íŠ¸ë¦¬
 solved by JY
-dfs »ç¿ë
+dfs ì‚¬ìš©
 */
 #include <iostream>
 #include <vector>
@@ -16,14 +16,14 @@ void dfs(int parent) {
 	if (parent == r)
 		return ;
 
-	if (tree[parent].empty()) {	// ÀÚ½ÄÀÌ ¾øÀ¸¸é ++
+	if (tree[parent].empty()) {	// ìì‹ì´ ì—†ìœ¼ë©´ ++
 		answer++;
 		return ;
 	}
 
 	for (int i = 0; i < tree[parent].size(); i++) {
 		if (tree[parent].size() == 1 && tree[parent][i] == r) {
-			answer++;	// ÀÚ½ÄÀÌ ÇÏ³ªÀÎµ¥ ±×°Ô Á¦°Å ³ëµå¸é ++
+			answer++;	// ìì‹ì´ í•˜ë‚˜ì¸ë° ê·¸ê²Œ ì œê±° ë…¸ë“œë©´ ++
 			return ;
 		}
 		else
@@ -43,7 +43,7 @@ int main() {
 		if (tmp == -1)
 			root.push_back(i);
 		else
-			tree[tmp].push_back(i);	// ºÎ¸ğ¿¡ ÀÚ½Ä ³ëµå Ãß°¡
+			tree[tmp].push_back(i);	// ë¶€ëª¨ì— ìì‹ ë…¸ë“œ ì¶”ê°€
 	}
 	cin >> r;
 

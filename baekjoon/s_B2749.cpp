@@ -1,7 +1,7 @@
 /*
-baekjoon 2749 : ÇÇº¸³ªÄ¡ ¼ö 3
+baekjoon 2749 : í”¼ë³´ë‚˜ì¹˜ ìˆ˜ 3
 solved by JY
-Çà·Ä°ú ºü¸¥ Á¦°öÀ» »ç¿ëÇÏ¿© n¹ø Â° ÇÇº¸³ªÄ¡ ¼ö ±¸ÇÏ±â
+í–‰ë ¬ê³¼ ë¹ ë¥¸ ì œê³±ì„ ì‚¬ìš©í•˜ì—¬ në²ˆ ì§¸ í”¼ë³´ë‚˜ì¹˜ ìˆ˜ êµ¬í•˜ê¸°
 */
 #include <iostream>
 #include <cstdio>

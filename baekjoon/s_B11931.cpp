@@ -1,5 +1,5 @@
 /*
-baekjoon 11931 : ¼ö Á¤·ÄÇÏ±â 4
+baekjoon 11931 : ìˆ˜ ì •ë ¬í•˜ê¸° 4
 solved by JY
 */
 #include <iostream>

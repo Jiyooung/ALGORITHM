@@ -1,14 +1,14 @@
 /*
-baekjoon 6064 : Ä«À× ´Þ·Â
+baekjoon 6064 : ì¹´ìž‰ ë‹¬ë ¥
 solved by JY
-ÃÖ¼Ò°ø¹è¼ö È°¿ë
+ìµœì†Œê³µë°°ìˆ˜ í™œìš©
 */
 #include <cstdio>
 #include <iostream>
 
 using namespace std;
 
-int gcd(int a, int b) {	// ÃÖ´ë°ø¾à¼ö
+int gcd(int a, int b) {	// ìµœëŒ€ê³µì•½ìˆ˜
 	if (b == 0) return a;
 	return gcd(b, a % b);
 }
@@ -26,7 +26,7 @@ int main(void) {
 	for (int i = 0; i < t; i++) {
 		cin >> m >> n >> x >> y;
 		
-		lcm = m * n / gcd(m, n);	// ÃÖ¼Ò°ø¹è¼ö
+		lcm = m * n / gcd(m, n);	// ìµœì†Œê³µë°°ìˆ˜
 
 		int j;
 

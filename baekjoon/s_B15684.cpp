@@ -1,8 +1,8 @@
 /*
-baekjoon 15684 : »ç´Ù¸® Á¶ÀÛ
+baekjoon 15684 : ì‚¬ë‹¤ë¦¬ ì¡°ì‘
 solved by JY
 DATE : 2020.10.15
-dfs¸¦ ÀÌ¿ë
+dfsë¥¼ ì´ìš©
 */
 #include <algorithm>
 #include <cstdio>
@@ -15,13 +15,13 @@ using namespace std;
 int n, m, h, a, b, ans = INF;
 int array[33][11] = {0,};
 
-bool is_ok() {  // ÀÚ±â ÀÚ½ÅÀÌ µÇ´ÂÁö È®ÀÎ
+bool is_ok() {  // ìê¸° ìì‹ ì´ ë˜ëŠ”ì§€ í™•ì¸
     for (int i = 1; i <= n; i++) {
         int col = i;
         for (int j = 1; j <= h; j++) {
-            if (array[j][col - 1] == 1)  // ¿ŞÂÊÀ¸·Î ½ºÀ¹
+            if (array[j][col - 1] == 1)  // ì™¼ìª½ìœ¼ë¡œ ìŠ¤ìœ½
                 --col;
-            else if (array[j][col] == 1)  // ¿À¸¥ÂÊÀ¸·Î ½ºÀ¹
+            else if (array[j][col] == 1)  // ì˜¤ë¥¸ìª½ìœ¼ë¡œ ìŠ¤ìœ½
                 ++col;
 
             if (j == h && col != i)
@@ -34,20 +34,20 @@ bool is_ok() {  // ÀÚ±â ÀÚ½ÅÀÌ µÇ´ÂÁö È®ÀÎ
 void dfs(int r, int num) {
     if (num > 3) return ;
 
-    if (is_ok()) {  // Á¶ÀÛ ¼º°ø ½Ã ÃÖ¼Ú°ª °»½Å
+    if (is_ok()) {  // ì¡°ì‘ ì„±ê³µ ì‹œ ìµœì†Ÿê°’ ê°±ì‹ 
         ans = min (ans, num);
         return ;
     }
 
     for (int i=r; i<=h; i++)
-        for (int j=1; j<n; j++) {   // ¼¼·Î¼±
-            if (array[i][j] == 1) continue;     // j¿Í j+1 ¼¼·Î¼± »çÀÌ¿¡ ¼±ÀÌ ÀÖÀ¸¸é continue
-            if (array[i][j-1] == 1) continue;   // j-1°ú j ¼¼·Î¼± »çÀÌ¿¡ ¼±ÀÌ ÀÖÀ¸¸é continue
-            if (array[i][j+1] == 1) continue;   // j+1°ú j+2 ¼¼·Î¼± »çÀÌ¿¡ ¼±ÀÌ ÀÖÀ¸¸é continue
+        for (int j=1; j<n; j++) {   // ì„¸ë¡œì„ 
+            if (array[i][j] == 1) continue;     // jì™€ j+1 ì„¸ë¡œì„  ì‚¬ì´ì— ì„ ì´ ìˆìœ¼ë©´ continue
+            if (array[i][j-1] == 1) continue;   // j-1ê³¼ j ì„¸ë¡œì„  ì‚¬ì´ì— ì„ ì´ ìˆìœ¼ë©´ continue
+            if (array[i][j+1] == 1) continue;   // j+1ê³¼ j+2 ì„¸ë¡œì„  ì‚¬ì´ì— ì„ ì´ ìˆìœ¼ë©´ continue
 
-            array[i][j] = 1;    // j¿Í j+1 ¼¼·Î¼± »çÀÌ¿¡ ¼±À» ³õ±â
+            array[i][j] = 1;    // jì™€ j+1 ì„¸ë¡œì„  ì‚¬ì´ì— ì„ ì„ ë†“ê¸°
             dfs(i, num + 1);    // dfs
-            array[i][j] = 0;    // j¿Í j+1 ¼¼·Î¼± »çÀÌ¿¡ ¼± »©±â
+            array[i][j] = 0;    // jì™€ j+1 ì„¸ë¡œì„  ì‚¬ì´ì— ì„  ë¹¼ê¸°
         }
 }
 
@@ -64,10 +64,10 @@ int main(void) {
 
     for (int i = 0; i < m; i++) {
         cin >> a >> b;
-        array[a][b] = 1;    // a¹øÂ° ÁÙ¿¡ ¼¼·Î¼± b¿Í b+1 »çÀÌ¿¡ ¼±ÀÌ ÀÖÀ½
+        array[a][b] = 1;    // aë²ˆì§¸ ì¤„ì— ì„¸ë¡œì„  bì™€ b+1 ì‚¬ì´ì— ì„ ì´ ìˆìŒ
     }
 
-    dfs(1, 0);  // 1¹ø Â° ÁÙºÎÅÍ ½ÃÀÛ!
+    dfs(1, 0);  // 1ë²ˆ ì§¸ ì¤„ë¶€í„° ì‹œì‘!
 
     if (ans == INF) cout << -1;
     else cout << ans;

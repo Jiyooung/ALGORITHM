@@ -1,8 +1,8 @@
 /*
-baekjoon 6209 : Á¦ÀÚ¸® ¸Ö¸®¶Ù±â 
+baekjoon 6209 : ì œìë¦¬ ë©€ë¦¬ë›°ê¸° 
 solved by JY
 DATE : 2020.10.09
-ÀÌºĞ Å½»öÀ¸·Î Ç®ÀÌ
+ì´ë¶„ íƒìƒ‰ìœ¼ë¡œ í’€ì´
 */
 #include <iostream>
 #include <cstdio>
@@ -22,9 +22,9 @@ bool check(ll mid) {
     ll diff = 0;
     for (int i = 0; i < n + 1; i++) {
         diff += dist[i + 1] - dist[i];
-        if (diff < mid) {               // µ¹¼¶ °£ °£°İÀÌ midº¸´Ù ÀÛÀ» °æ¿ì
-            cnt++;                      // Á¦°Å
-            if (cnt > m) return false;  // mid´Â Á¤´äÀÌ µÉ ¼ö ¾øÀ½.
+        if (diff < mid) {               // ëŒì„¬ ê°„ ê°„ê²©ì´ midë³´ë‹¤ ì‘ì„ ê²½ìš°
+            cnt++;                      // ì œê±°
+            if (cnt > m) return false;  // midëŠ” ì •ë‹µì´ ë  ìˆ˜ ì—†ìŒ.
         } else
             diff = 0;
     }

@@ -1,7 +1,7 @@
 /*
-baekjoon 11052 : Ä«µå ±¸¸ÅÇÏ±â
+baekjoon 11052 : ì¹´ë“œ êµ¬ë§¤í•˜ê¸°
 solved by JY
-´ÙÀÌ³ª¹Í ÇÁ·Î±×·¡¹Ö »ç¿ë
+ë‹¤ì´ë‚˜ë¯¹ í”„ë¡œê·¸ë˜ë° ì‚¬ìš©
 */
 #include <iostream>
 #include <algorithm>
@@ -10,7 +10,7 @@ using namespace std;
 
 int main(void) {
 	int n;
-	int dp[1001] = { 0, }; // °³¼öº°·Î ÃÖ´ë°ª
+	int dp[1001] = { 0, }; // ê°œìˆ˜ë³„ë¡œ ìµœëŒ€ê°’
 
 	scanf("%d", &n);
 	for (int i = 1; i <= n; i++) {
