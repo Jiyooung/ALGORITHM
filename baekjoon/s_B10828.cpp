@@ -1,5 +1,5 @@
 /*
-baekjoon 10828 : 스택
+baekjoon 10828 : 스택 
 solved by JY
 */
 #include <iostream>
