@@ -1,5 +1,5 @@
 /*
-baekjoon 1927 : ÃÖ¼Ò Èü
+baekjoon 1927 : ìµœì†Œ íž˜
 solved by JY
 */
 #include <iostream>
