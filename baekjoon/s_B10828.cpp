@@ -1,5 +1,5 @@
 /*
-baekjoon 10828 : ╫╨ец 
+baekjoon 10828 : Л┼╓М┐²
 solved by JY
 */
 #include <iostream>
