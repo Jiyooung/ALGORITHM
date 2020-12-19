@@ -16,6 +16,7 @@
         "cstdio": "cpp",
         "new": "cpp",
         "map": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "cmath": "cpp"
     },
 }
