@@ -1,5 +1,5 @@
 /*
-baekjoon 1927 : 최소 힘
+baekjoon 1927 : 최소 힙
 solved by JY
 */
 #include <iostream>
