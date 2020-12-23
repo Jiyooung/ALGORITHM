@@ -1,7 +1,7 @@
 *.exe
 *.txt
-*.json
 basic
 
+.vscode/
 coding_test/
 __*
