@@ -17,6 +17,7 @@
         "new": "cpp",
         "map": "cpp",
         "functional": "cpp",
-        "cmath": "cpp"
+        "cmath": "cpp",
+        "array": "cpp"
     },
 }
