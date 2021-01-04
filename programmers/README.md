@@ -2,4 +2,4 @@
 
 ## SQL
 
-### **[SUM, MAX, MIN](SQL/SUM, MAX, MIN)**
+### ** [SUM, MAX, MIN](SQL/SUM,MAX,MIN) **
