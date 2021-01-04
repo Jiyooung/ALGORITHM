@@ -1,8 +1,8 @@
 /*
-programmers : ¿Üº® Á¡°Ë
+programmers : ì™¸ë²½ ì ê²€
 solved by JY
-Å×½ºÆ® 14¸¸ Æ²¸² > ÀÌÁß ¼ø¿­·Î ÇØ°á
-ind ¼ø¿­ µ¹¸®¸é cho´Â ¾Èµ¹¾Æ°¡¼­ 1,2,3Àº ÇÏ°í 1,3,2´Â ¾ÈÇØ¼­ Æ²¸²
+í…ŒìŠ¤íŠ¸ 14ë§Œ í‹€ë¦¼ > ì´ì¤‘ ìˆœì—´ë¡œ í•´ê²°
+ind ìˆœì—´ ëŒë¦¬ë©´ choëŠ” ì•ˆëŒì•„ê°€ì„œ 1,2,3ì€ í•˜ê³  1,3,2ëŠ” ì•ˆí•´ì„œ í‹€ë¦¼
 */
 #include <cstdio>
 #include <iostream>

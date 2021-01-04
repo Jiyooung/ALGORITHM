@@ -1,5 +1,5 @@
 /*
-programmers : ¼ÅÆ² ¹ö½º
+programmers : ì…”í‹€ ë²„ìŠ¤
 solved by JY
 */
 #include <cstdio>
@@ -32,7 +32,7 @@ string solution(int n, int t, int m, vector<string> timetable) {
 	string answer = "";
 	sort(timetable.begin(), timetable.end());
 	
-	int num = 0;	// Å¸°í °£ »ç¶÷ ÀÎµ¦½º
+	int num = 0;	// íƒ€ê³  ê°„ ì‚¬ëŒ ì¸ë±ìŠ¤
 	bool last = false;
 
 	for (int i = 1; i <= n; i++) {

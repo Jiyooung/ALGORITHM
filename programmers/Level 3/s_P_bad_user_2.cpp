@@ -1,5 +1,5 @@
 /*
-programmers : ºÒ·® »ç¿ëÀÚ
+programmers : ë¶ˆëŸ‰ ì‚¬ìš©ì
 solved by JY
 */
 #include <iostream>
@@ -12,7 +12,7 @@ using namespace std;
 int b_size;
 int u_size;
 
-int cmp(string a, string b) {	// Á¦Àç ¾ÆÀÌµğÀÎÁö È®ÀÎ
+int cmp(string a, string b) {	// ì œì¬ ì•„ì´ë””ì¸ì§€ í™•ì¸
 	if (a.size() != b.size())
 		return 0;
 
@@ -32,7 +32,7 @@ int solution(vector<string> user_id, vector<string> banned_id) {
 	u_size = user_id.size();
 	b_size = banned_id.size();
 
-	vector<int> ind;	// user_id¿¡¼­ b_size °¹¼ö¸¸Å­ »Ì±â À§ÇÑ º¤ÅÍ
+	vector<int> ind;	// user_idì—ì„œ b_size ê°¯ìˆ˜ë§Œí¼ ë½‘ê¸° ìœ„í•œ ë²¡í„°
 	for (int i = 0; i < u_size - b_size; i++) {
 		ind.push_back(0);
 	}
@@ -41,7 +41,7 @@ int solution(vector<string> user_id, vector<string> banned_id) {
 	}
 
 	do {
-		vector<string> cho;	// È®ÀÎÇÒ user_id Á¶ÇÕ ÀúÀå
+		vector<string> cho;	// í™•ì¸í•  user_id ì¡°í•© ì €ì¥
 		for (int i = 0; i < u_size; i++) {
 			if (ind[i] == 1)
 				cho.push_back(user_id[i]);
@@ -51,13 +51,13 @@ int solution(vector<string> user_id, vector<string> banned_id) {
 		do {
 			int i = 0;
 			for (i = 0; i < cho.size(); i++) {
-				if (cmp(cho[i], banned_id[i]) == 1) {	// Á¦Àç ¾ÆÀÌµğ¸é
-						continue;	// ´ÙÀ½ ¾ÆÀÌµğµµ Á¦Àç ¾ÆÀÌµğÀÎÁö È®ÀÎ
+				if (cmp(cho[i], banned_id[i]) == 1) {	// ì œì¬ ì•„ì´ë””ë©´
+						continue;	// ë‹¤ìŒ ì•„ì´ë””ë„ ì œì¬ ì•„ì´ë””ì¸ì§€ í™•ì¸
 				}
-				break;	// Á¦Àç ¾ÆÀÌµğ°¡ ¾Æ´Ô > ´ÙÀ½ Á¶ÇÕÀ¸·Î °¡ÀÚ
+				break;	// ì œì¬ ì•„ì´ë””ê°€ ì•„ë‹˜ > ë‹¤ìŒ ì¡°í•©ìœ¼ë¡œ ê°€ì
 			}
-			if (i == cho.size()) {	// cho°¡ Á¦Àç ¾ÆÀÌµğÀÇ Á¶ÇÕÀÌ¸é 
-				answer++;		// ++ÇÏ°í ´ÙÀ½ Á¶ÇÕ È®ÀÎÀ» À§ÇÑ break;
+			if (i == cho.size()) {	// choê°€ ì œì¬ ì•„ì´ë””ì˜ ì¡°í•©ì´ë©´ 
+				answer++;		// ++í•˜ê³  ë‹¤ìŒ ì¡°í•© í™•ì¸ì„ ìœ„í•œ break;
 				break;
 			}
 		} while (next_permutation(banned_id.begin(), banned_id.end()));

@@ -1,7 +1,7 @@
 /*
-programmers : Â¡°Ë´Ù¸® °Ç³Ê±â
+programmers : ì§•ê²€ë‹¤ë¦¬ ê±´ë„ˆê¸°
 solved by JY
-ÀÌºĞ Å½»ö »ç¿ë
+ì´ë¶„ íƒìƒ‰ ì‚¬ìš©
 */
 #include <iostream>
 #include <cstdio>
@@ -10,16 +10,16 @@ solved by JY
 
 using namespace std;
 
-int check(vector<int>& stones, int mid, int k) {	// mid ¹øÂ° Ä£±¸°¡ °Ç³Î ¼ö ÀÖ´Â Áö È®ÀÎ
+int check(vector<int>& stones, int mid, int k) {	// mid ë²ˆì§¸ ì¹œêµ¬ê°€ ê±´ë„ ìˆ˜ ìˆëŠ” ì§€ í™•ì¸
 	int count = 0;
 	for (int i = 0; i < stones.size(); i++) {
-		if (stones[i] < mid) {	// stones°¡ midº¸´Ù ÀÛÀº °æ¿ì °Ç³Ê¶Ù¾î¾ß ÇÔ.
+		if (stones[i] < mid) {	// stonesê°€ midë³´ë‹¤ ì‘ì€ ê²½ìš° ê±´ë„ˆë›°ì–´ì•¼ í•¨.
 			count++;
-			if (count == k)		// °Ç³Ê¶Ú °¹¼ö°¡ k°³°¡ µÇ¸é mid Ä£±¸´Â °Ç³Î ¼ö ¾øÀ½.
+			if (count == k)		// ê±´ë„ˆë›´ ê°¯ìˆ˜ê°€ kê°œê°€ ë˜ë©´ mid ì¹œêµ¬ëŠ” ê±´ë„ ìˆ˜ ì—†ìŒ.
 				return 0;
 		}
 		else
-			count = 0;			// µ¹À» ¹âÀ» ¶§¸¶´Ù count ÃÊ±âÈ­
+			count = 0;			// ëŒì„ ë°Ÿì„ ë•Œë§ˆë‹¤ count ì´ˆê¸°í™”
 	}
 
 	return 1;
@@ -33,16 +33,16 @@ int solution(vector<int> stones, int k) {
 	while (mini < maxi) {
 		int mid = (mini + maxi + 1) / 2;
 
-		if (check(stones, mid, k)) {	// mid°¡ °¡´ÉÇÑ °æ¿ì
+		if (check(stones, mid, k)) {	// midê°€ ê°€ëŠ¥í•œ ê²½ìš°
 			mini = mid;
 			answer = mid;
 		}
-		else {	// mid°¡ ºÒ°¡´ÉÇÑ °æ¿ì
+		else {	// midê°€ ë¶ˆê°€ëŠ¥í•œ ê²½ìš°
 			maxi = mid - 1;
 		}
 	}
 
-	if (mini == maxi) {	// ¸ğµç stones µ¿ÀÏÇÒ °æ¿ì, Á¦ÀÏ ÀÛÀº °ª(or Å« °ª)ÀÌ µÇ´Â °æ¿ì..µî
+	if (mini == maxi) {	// ëª¨ë“  stones ë™ì¼í•  ê²½ìš°, ì œì¼ ì‘ì€ ê°’(or í° ê°’)ì´ ë˜ëŠ” ê²½ìš°..ë“±
 		if (check(stones, mini, k))	
 			answer = mini;
 	}

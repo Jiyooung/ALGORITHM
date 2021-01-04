@@ -1,7 +1,7 @@
 /*
-programmers : È£ÅÚ ¹æ ¹èÁ¤
+programmers : í˜¸í…” ë°© ë°°ì •
 solved by JY
-À¯´Ï¿Â ÆÄÀÎµå »ç¿ë
+ìœ ë‹ˆì˜¨ íŒŒì¸ë“œ ì‚¬ìš©
 */
 #include <cstdio>
 #include <iostream>
@@ -13,7 +13,7 @@ solved by JY
 using namespace std;
 
 ll find(map < ll, ll > &rooms, ll v) {
-	if (rooms.count(v) == 0) {	// ¹æÀÌ ºñ¾úÀ½
+	if (rooms.count(v) == 0) {	// ë°©ì´ ë¹„ì—ˆìŒ
 		return v;
 	}
 	return rooms[v] = find(rooms, rooms[v] + 1);
@@ -24,12 +24,12 @@ vector<ll> solution(ll k, vector<ll> room_number) {
 	map < ll, ll > rooms;
 
 	for (int i = 0; i < room_number.size(); i++) {
-		if (rooms.count(room_number[i]) != 0) {		// ¹èÁ¤µÈ ¹æÀÓ
-			ll num = find(rooms, room_number[i]);	// ´ÙÀ½ ¹æ Ã£±â
+		if (rooms.count(room_number[i]) != 0) {		// ë°°ì •ëœ ë°©ì„
+			ll num = find(rooms, room_number[i]);	// ë‹¤ìŒ ë°© ì°¾ê¸°
 			rooms.insert(make_pair(num, num));
 			answer.push_back(num);
 		}
-		else {	// ¹æÀÌ ºñ¾úÀ½
+		else {	// ë°©ì´ ë¹„ì—ˆìŒ
 			rooms.insert(make_pair(room_number[i], room_number[i]));
 			answer.push_back(room_number[i]);
 		}

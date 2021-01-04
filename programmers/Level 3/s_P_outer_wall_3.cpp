@@ -1,7 +1,7 @@
 /*
-programmers : ¿Üº® Á¡°Ë
+programmers : ì™¸ë²½ ì ê²€
 solved by JY
-¼ø¿­ »ç¿ë
+ìˆœì—´ ì‚¬ìš©
 */
 #include <cstdio>
 #include <iostream>
