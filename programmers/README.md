@@ -1,5 +1,5 @@
 # Programmers
 
-## Oracle
+## SQL
 
-### **[Level 1](Level 1/)**
+### **[SUM, MAX, MIN](SQL/SUM, MAX, MIN)**
