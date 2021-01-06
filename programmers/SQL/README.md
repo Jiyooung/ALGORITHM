@@ -1,5 +1,5 @@
 # Programmers
 
-## [SQL]()
+## SQL
 
 ### **[SUM, MAX, MIN](SUM,MAX,MIN)**
