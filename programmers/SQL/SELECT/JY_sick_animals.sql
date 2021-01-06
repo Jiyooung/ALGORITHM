@@ -1,0 +1,9 @@
+/*
+programmers : 아픈 동물 찾기
+solved by JY
+DATE : 2021.01.06
+*/
+SELECT  ANIMAL_ID, NAME
+FROM    ANIMAL_INS
+WHERE   LOWER(INTAKE_CONDITION) = LOWER('SICK')
+ORDER BY ANIMAL_ID;
