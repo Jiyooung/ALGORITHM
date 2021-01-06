@@ -1,0 +1,8 @@
+/*
+programmers : 여러 기준으로 정렬하기
+solved by JY
+DATE : 2021.01.06
+*/
+SELECT  ANIMAL_ID, NAME, DATETIME
+FROM    ANIMAL_INS
+ORDER BY NAME, DATETIME DESC;
