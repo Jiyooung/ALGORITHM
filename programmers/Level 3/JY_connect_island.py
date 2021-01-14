@@ -1,7 +1,11 @@
-# programmers L2 : 섬 연결하기
+# programmers L3 : 섬 연결하기
 # solved by JY
 # DATE : 2020.01.13
 # Greedy 알고리즘 - Kruskal 알고리즘(Union-Find 사용)
+# 작은 비용부터 추가하며 수행
+# 사이클이 생기는 다리는 추가하지 않음 
+# (x, y가 같은 집합에 있는 정점일 경우 연결하면 사이클이 생김)
+
 
 class UnionFind:
     def __init__(self, n):
@@ -14,7 +18,7 @@ class UnionFind:
             self.parent[index] = self.find(self.parent[index])
         return self.parent[index]
     
-    # 원래는 크기 비교해서 큰 집합에 작은 집합을 추가해야함
+    # 크기 비교해서 큰 집합에 작은 집합을 추가해야 더 효율적
     # 단순히 부모의 숫자가 더 작은 곳에 추가함
     def union(self, x, y):
         if self.parent[x] > self.parent[y]: self.parent[x] = y

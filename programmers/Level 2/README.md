@@ -8,7 +8,6 @@
 
 ### [Greedy > 구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885) >> [JY_answer.py](JY_lifeboat.py), [JY_best_answer.py](JY_lifeboat_1.py)
 
-### [Greedy > 섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861) >> [JY_answer.py](JY_connect_island.py)
 
 
 
