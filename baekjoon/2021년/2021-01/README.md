@@ -10,7 +10,7 @@
 
 ### [10718 We love kriii](https://www.acmicpc.net/problem/10718) >> [JY_answer.cpp](JY_B10718.cpp)
 
-### [13458 시험 감독](https://www.acmicpc.net/problem/13458) >> [JY_answer.cpp](JY_B13458.py)
+### [13458 시험 감독](https://www.acmicpc.net/problem/13458) >> [JY_answer.py](JY_B13458.py)
 
 
 
