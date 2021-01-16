@@ -38,6 +38,19 @@ index와 data가 동시에 필요할 때 사용
 - list \> [(index1, data1), (index2, data2), ..]
 - dict \> {index1: data1, index2: data2, ..}
 
+## 연산자
+
+### 산술 연산자
+|Operator|Description|Example|
+|---|---|---|
+|+|더하기|a + b = 30|
+|-|빼기|a - b = -10|
+|*|곱하기|a * b = 200|
+|/|나누기|b / a = 2.0|
+|%|나머지|b % a = 0|
+|**|제곱|a ** c = 1000|
+|//|몫|a // c = 3|
+
 ### 삼항 연산자
 ```python
 a if 조건식 else b 
@@ -76,6 +89,29 @@ list3 = [i + j if i == 1 else 0 for i in list1 for j in list2]
 list3 = [i + j for i in list1 for j in list2 if i == 1]
 ```
 바깥 for문 먼저 쓰기
+
+## int
+
+### 반올림, 내림
+```python
+import numpy as np
+np.around(a)    # 0.5 기준으로 올림/내림
+np.round_(a, N) # N 소수점 자리까지 반올림 
+np.rint(a)      # 가장 가까운 정수로 반올림
+
+np.ceil(a)      # 올림
+np.trucn(a)     # 버림
+
+np.fix(a)       # 0 반향으로 가장 가까운 정수로 올림/내림
+```
+
+## string
+
+### string > int
+```python
+s = "123"
+n = int(s)
+```
 
 ## list
 
