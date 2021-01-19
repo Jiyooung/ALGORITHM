@@ -2,6 +2,7 @@
 
 ## SQL - SUM, MAX, MIN
 
+### JY Code
 - [최댓값 구하기](JY_max.sql)
 - [최솟값 구하기](JY_min.sql)
 - [동물 수 구하기](JY_count_animal.sql)

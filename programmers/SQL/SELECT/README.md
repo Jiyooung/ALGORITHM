@@ -2,6 +2,7 @@
 
 ## SQL - SELECT
 
+### JY Code
 - [모든 레코드 조회하기](JY_search_records.sql)
 - [역순 정렬하기](JY_reverse_sorting.sql)
 - [아픈 동물 찾기](JY_sick_animals.sql)
