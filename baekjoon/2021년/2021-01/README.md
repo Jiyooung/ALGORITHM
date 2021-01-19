@@ -20,6 +20,8 @@
 
 ### [10718 We love kriii](https://www.acmicpc.net/problem/10718) >> [Implementation.cpp](JY_B10718.cpp)
 
+### [10998 A*B](https://www.acmicpc.net/problem/10998) >> [Implementation.js](JY_B10998.js)
+
 ### [11000 강의실 배정](https://www.acmicpc.net/problem/11000) >> [Greedy.py](JY_B11000.py)
 
 ### [11399 ATM](https://www.acmicpc.net/problem/11399) >> [Greedy.py](JY_B11399.py)
