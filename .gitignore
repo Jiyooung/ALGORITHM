@@ -1,7 +1,8 @@
 *.exe
 *.txt
-basic
+test.py
 
 .vscode/
 coding_test/
 __*
+.idea/
