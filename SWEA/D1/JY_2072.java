@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.io.FileInputStream;
 
 public class JY_2072 {
     public static void main(String args[]) throws Exception{
@@ -18,5 +17,6 @@ public class JY_2072 {
             }
             System.out.printf("#%d %d\n", i+1, answer);         
         }
+        sc.close();
     }
 }
