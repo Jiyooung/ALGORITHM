@@ -1,8 +1,14 @@
+/*
+jungol 1810 : 백설공주(Snow White)
+solved by JY
+DATE : 2020.01.20
+BruteForce 이용
+*/
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class JY_J1810 {
+public class JY_Main_J1810 {
     static int pick[];
     public static void main(String[] args) throws NumberFormatException, IOException {
         // System.setIn(new FileInputStream("input.txt"));
