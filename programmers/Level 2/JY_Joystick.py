@@ -49,5 +49,17 @@ def solution(name):
     return answer
 
 # run test
-print(solution("ABABAAAABA"))
+print(solution("BBBAAAB")) #9
+print(solution("ABABAAAAABA")) #11
+print(solution("CANAAAAANAN")) #49
+print(solution("ABAAAAABAB")) #8
+print(solution("ABABAAAAAB")) #10
+print(solution("BABAAAAB")) #7
+print(solution("AAA")) #0
+print(solution("ABAAAAAAABA")) #6
+print(solution("AAB")) #2
+print(solution("AABAAAAAAABBB")) #12
+print(solution("ZZZ")) #5
+print(solution("BBBBAAAAAB")) #12
+print(solution("BBBBAAAABA")) #13
 

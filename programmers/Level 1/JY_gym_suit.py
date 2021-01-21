@@ -1,4 +1,4 @@
-# programmers L1 : 체육관
+# programmers L1 : 체육복
 # solved by JY
 # DATE : 2020.01.11
 # Greedy 알고리즘
