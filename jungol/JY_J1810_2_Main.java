@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 // 재귀 사용
-public class JY_Main_J1810_2 {
+public class JY_J1810_2_Main {
     static int pick[] = new int[7];
     static int[] arr = new int[9];
     static boolean[] b = new boolean[9];

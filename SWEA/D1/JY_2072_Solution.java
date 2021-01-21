@@ -1,6 +1,11 @@
+/*
+SWEA 2072 : 홀수만 더하기
+solved by JY
+DATE : 2020.01.20
+*/
 import java.util.Scanner;
 
-public class JY_2072 {
+public class JY_2072_Solution {
     public static void main(String args[]) throws Exception{
         // System.setIn(new FileInputStream("input.txt"));
         Scanner sc = new Scanner(System.in);

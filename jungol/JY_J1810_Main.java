@@ -8,7 +8,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class JY_Main_J1810 {
+public class JY_J1810_Main {
     static int pick[];
     public static void main(String[] args) throws NumberFormatException, IOException {
         // System.setIn(new FileInputStream("input.txt"));

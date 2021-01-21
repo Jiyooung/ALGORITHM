@@ -9,7 +9,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
-public class JY_Main_J1328 {
+public class JY_J1328_Main {
  
     public static void main(String[] args) throws NumberFormatException, IOException {
         //System.setIn(new FileInputStream("input.txt"));
