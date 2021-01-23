@@ -11,44 +11,34 @@ import java.io.InputStreamReader;
 
 // 재귀 사용
 public class JY_J1810_2_Main {
-    static int pick[] = new int[7];
-    static int[] arr = new int[9];
-    static boolean[] b = new boolean[9];
-    static boolean find = false;
- 
-    public static void main(String[] args) throws NumberFormatException, IOException {
-//      System.setIn(new FileInputStream("input.txt"));
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        for (int i = 0; i < 9; i++) {
-            arr[i] = Integer.parseInt(br.readLine().trim());
-        }
- 
-        check(0, 0);
- 
-        for (int j = 0; j < 7; j++) {
-            System.out.println(pick[j]);
-        }
-    }
- 
-    public static void check(int idx, int cnt) {
-        if (cnt == 7) {
-            int sum = 0, p = 0;
-            for (int i = 0; i < idx; i++) {
-                if (b[i]) {
-                    sum += arr[i];
-                    pick[p++] = arr[i];
-                }
-            }
-            if (sum == 100) find = true;
-        }
-        if (idx == 9) return;
- 
-        b[idx] = true;
-        check(idx + 1, cnt + 1);
-        if (find) return;
- 
-        b[idx] = false;
-        check(idx + 1, cnt);
-        if (find) return;
-    }
+    static int N = 9;
+	static int[] arr = new int[N];
+	static boolean[] b = new boolean[N];
+
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		System.setIn(new FileInputStream("input.txt"));
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		for (int i = 0; i < 9; i++) {
+			arr[i] = Integer.parseInt(br.readLine().trim());
+		}
+
+		check(0, 0, 0);
+	}
+
+	public static void check(int idx, int cnt, int sum) {
+		if (sum > 100) return ;
+		if (cnt == 7 && sum == 100) {
+			for (int i = 0; i < N; i++) {
+				if (b[i]) System.out.println(arr[i]);
+			}
+			return ;
+		}
+		if (cnt >= 7 || idx == 9) return ;
+
+		b[idx] = true;
+		check(idx + 1, cnt + 1, sum + arr[idx]);
+
+		b[idx] = false;
+		check(idx + 1, cnt, sum);
+	}
 }

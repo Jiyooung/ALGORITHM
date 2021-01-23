@@ -14,5 +14,6 @@
 
 ### [Greedy > 단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884) >> [Greedy.py](JY_enforcement_camera.py)
 
-### [BFS > 네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) >> [BFS.py](JY_network.py)
+### [DFS/BFS > 네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) >> [BFS.py](JY_network.py)
 
+### [DFS/BFS > 단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) >> [DFS.py](JY_word_conversion.py)

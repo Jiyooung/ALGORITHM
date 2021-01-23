@@ -16,6 +16,8 @@
 
 ### [2618 경찰차](https://www.acmicpc.net/problem/2618) >> [DP.cpp](JY_B2618.cpp)
 
+### [2630 색종이 만들기](https://www.acmicpc.net/problem/2630) >> [Divide.java]](JY_B2630_Main.java)
+
 ### [10172 개](https://www.acmicpc.net/problem/10172) >> [Implementation.cpp](JY_B10172.cpp)
 
 ### [10718 We love kriii](https://www.acmicpc.net/problem/10718) >> [Implementation.cpp](JY_B10718.cpp)
