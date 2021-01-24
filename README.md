@@ -27,3 +27,8 @@
 
     4. 🌱 [JUNGOL](jungol)<br>
        - 정보올림피아드 알고리즘<br><br>
+
+
+    - [***Algorithm***](https://github.com/Jiyooung/How_to_Use/blob/main/Algorithm/README.md)<br>
+    공부한 알고리즘을 정리해놓은 공간입니다.
+    
