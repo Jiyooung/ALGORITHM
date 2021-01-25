@@ -13,3 +13,5 @@ System.setIn(new FileInputStream("input.txt"));
 ### [1328 빌딩](http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=607&sca=3020) >> [Stack.java](JY_Main_J1328.java)
 
 ### [1335 색종이 만들기(영역구분)](http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=614&sca=3010) >> [Divide.java](JY_J1335_Main.java)
+
+### [1695 단지번호붙이기](http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=968&sca=99&sfl=wr_hit&stx=1695) >> [DFS.java](JY_J1695_Main.java)
