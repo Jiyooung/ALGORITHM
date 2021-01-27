@@ -1,3 +1,4 @@
+
 /*
 jungol 1810 : 백설공주(Snow White)
 solved by JY
@@ -5,6 +6,7 @@ DATE : 2021.01.20
 BruteForce 이용
 */
 import java.io.BufferedReader;
+// import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 

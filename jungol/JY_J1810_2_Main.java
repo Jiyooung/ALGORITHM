@@ -5,7 +5,7 @@ DATE : 2021.01.21
 재귀 사용
 */
 import java.io.BufferedReader;
-import java.io.FileInputStream;
+// import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
@@ -15,7 +15,7 @@ public class JY_J1810_2_Main {
 	static boolean[] b = new boolean[N];
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		System.setIn(new FileInputStream("input.txt"));
+		// System.setIn(new FileInputStream("input.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		for (int i = 0; i < 9; i++) {
 			arr[i] = Integer.parseInt(br.readLine().trim());
