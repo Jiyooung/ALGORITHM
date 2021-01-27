@@ -1,7 +1,7 @@
 /*
 programmers L2 : 구명보트
 solved by JY
-DATE : 2020.01.20
+DATE : 2021.01.20
 Greedy 알고리즘
 */
 function solution(people, limit) {

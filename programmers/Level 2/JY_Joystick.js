@@ -1,7 +1,7 @@
 /*
 programmers L2 : 조이스틱
 solved by JY
-DATE : 2020.01.21
+DATE : 2021.01.21
 Greedy 알고리즘
 */
 

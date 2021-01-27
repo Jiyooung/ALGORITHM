@@ -1,6 +1,6 @@
 # programmers L2 : 큰 수 만들기
 # solved by JY
-# DATE : 2020.01.12
+# DATE : 2021.01.12
 # Greedy 알고리즘
 # count = 제거한 숫자 개수
 # 최적화 완료

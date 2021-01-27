@@ -1,7 +1,7 @@
 /*
 jungol 1328 : 빌딩
 solved by JY
-DATE : 2020.01.21
+DATE : 2021.01.21
 Stack 사용
 */
 import java.io.BufferedReader;

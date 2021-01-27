@@ -1,7 +1,7 @@
 /*
 programmers L1 : 체육복
 solved by JY
-DATE : 2020.01.21
+DATE : 2021.01.21
 Greedy 알고리즘
 */
 function solution(n, lost, reserve) {

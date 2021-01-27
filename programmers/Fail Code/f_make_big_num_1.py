@@ -1,6 +1,6 @@
 # programmers L2 : 큰 수 만들기
 # solved by JY
-# DATE : 2020.01.12
+# DATE : 2021.01.12
 # Greedy 알고리즘
 # for문으로 다 돌면서 max값 찾음 > 8, 10번 시간초과
 

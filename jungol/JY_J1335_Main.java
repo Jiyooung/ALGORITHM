@@ -1,8 +1,13 @@
+/*
+jungol 1335 : 색종이 만들기(영역구분)
+solved by JY
+DATE : 2021.01.22
+DFS
+*/
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-// 색종이 만들기(영역구분)
 public class JY_J1335_Main {
 	static int[] answer = {0, 0};
 	public static void main(String[] args) throws NumberFormatException, IOException {

@@ -1,4 +1,8 @@
--- 코드를 입력하세요
+/*
+programmers : 고양이와 개는 몇 마리 있을까
+solved by JY
+DATE : 2021.01.13
+*/
 SELECT   ANIMAL_TYPE, COUNT(ANIMAL_ID)
 FROM     ANIMAL_INS 
 GROUP BY ANIMAL_TYPE

@@ -1,7 +1,7 @@
 /*
 jungol 1810 : 백설공주(Snow White)
 solved by JY
-DATE : 2020.01.21
+DATE : 2021.01.21
 재귀 사용
 */
 import java.io.BufferedReader;
@@ -9,7 +9,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// 재귀 사용
 public class JY_J1810_2_Main {
     static int N = 9;
 	static int[] arr = new int[N];

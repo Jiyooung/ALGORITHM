@@ -1,4 +1,8 @@
--- 코드를 입력하세요
+/*
+programmers : 입양 시각 구하기(2)
+solved by JY
+DATE : 2021.01.18
+*/
 WITH TIME AS (
     SELECT  LEVEL-1 HOUR
     FROM    DUAL

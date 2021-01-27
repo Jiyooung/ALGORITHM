@@ -1,9 +1,14 @@
+/*
+baekjoon 2630 : 단지번호붙이기
+solved by JY
+DATE : 2021.01.25
+분할정복
+*/
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// 색종이 만들기
 public class JY_B2630_Main {
 	static int[] answer = {0, 0};
 	static int [][] paper;

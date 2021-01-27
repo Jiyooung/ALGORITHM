@@ -1,5 +1,9 @@
--- 코드를 입력하세요
--- 데이턱가 있는 시간만 출력
+/*
+programmers : 입양 시각 구하기(1)
+solved by JY
+DATE : 2021.01.18
+데이터가 있는 시간만 출력
+*/
 SELECT  hour, count(*) count
 FROM 
     (SELECT TO_CHAR(datetime, 'hh24') hour

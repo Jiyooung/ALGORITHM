@@ -1,3 +1,9 @@
+/*
+jungol 1695 : 단지번호붙이기
+solved by JY
+DATE : 2021.01.25
+분할정복
+*/
 import java.io.BufferedReader;
 // import java.io.FileInputStream;
 import java.io.IOException;

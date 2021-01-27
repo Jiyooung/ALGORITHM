@@ -1,3 +1,9 @@
+/*
+baekjoon 2667 : 색종이 만들기
+solved by JY
+DATE : 2021.01.22
+DFS
+*/
 import java.io.BufferedReader;
 // import java.io.FileInputStream;
 import java.io.IOException;

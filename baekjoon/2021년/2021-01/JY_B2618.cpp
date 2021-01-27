@@ -1,7 +1,7 @@
 /*
 baekjoon 2618 : 경찰차
 solved by JY
-DATE : 2020.01.17
+DATE : 2021.01.17
 Dynamic Programming
 */
 #include <iostream>

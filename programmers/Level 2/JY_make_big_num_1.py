@@ -1,6 +1,6 @@
 # programmers L2 : 큰 수 만들기
 # solved by JY
-# DATE : 2020.01.12
+# DATE : 2021.01.12
 # Greedy 알고리즘
 # enumerate() 사용
 # 시간초과는 안나지만 효율은 좋진 않음

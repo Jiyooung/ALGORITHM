@@ -1,4 +1,8 @@
--- 코드를 입력하세요
+/*
+programmers : 동명 동물 수 찾기
+solved by JY
+DATE : 2021.01.13
+*/
 SELECT   NAME, COUNT(NAME)
 FROM     ANIMAL_INS
 WHERE    NAME IS NOT NULL

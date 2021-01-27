@@ -1,7 +1,7 @@
 /*
 baekjoon 10172 : 개
 solved by JY
-DATE : 2020.01.11
+DATE : 2021.01.11
 */
 #include <iostream>
 #include <cstdio>

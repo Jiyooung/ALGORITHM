@@ -1,7 +1,7 @@
 /*
 jungol 1810 : 백설공주(Snow White)
 solved by JY
-DATE : 2020.01.20
+DATE : 2021.01.20
 BruteForce 이용
 */
 import java.io.BufferedReader;
