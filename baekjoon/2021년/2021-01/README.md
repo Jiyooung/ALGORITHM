@@ -12,6 +12,8 @@
 
 ### [1931 회의실 배정](https://www.acmicpc.net/problem/1931) >> [Greedy.py](JY_B1931.py)
 
+### [2110 공유기 설치](https://www.acmicpc.net/problem/2110) >> [BinarySearch.py](JY_B2110.py)
+
 ### [2178 미로 탐색](https://www.acmicpc.net/problem/2178) >> [BFS.py](JY_B2178_2.py)
 
 ### [2606 바이러스](https://www.acmicpc.net/problem/2606) >> [BFS.py](JY_B2606.py)
@@ -22,6 +24,8 @@
 
 ### [2667 단지번호붙이기](https://www.acmicpc.net/problem/2667) >> [DFS.java](JY_B2667_Main.java)
 
+### [2805 나무 자르기](https://www.acmicpc.net/problem/2805) >> [BinarySearch.py](JY_B2805_2.py)
+
 ### [10172 개](https://www.acmicpc.net/problem/10172) >> [Implementation.cpp](JY_B10172.cpp)
 
 ### [10718 We love kriii](https://www.acmicpc.net/problem/10718) >> [Implementation.cpp](JY_B10718.cpp)
@@ -31,6 +35,8 @@
 ### [11000 강의실 배정](https://www.acmicpc.net/problem/11000) >> [Greedy.py](JY_B11000.py)
 
 ### [11399 ATM](https://www.acmicpc.net/problem/11399) >> [Greedy.py](JY_B11399.py)
+
+### [12015 가장 긴 증가하는 부분 수열 2](https://www.acmicpc.net/problem/12015) >> [BinarySearch.py](JY_B12015_2.py)
 
 ### [12845 모두의 마블](https://www.acmicpc.net/problem/12845) >> [Greedy.py](JY_B12845.py)
 
