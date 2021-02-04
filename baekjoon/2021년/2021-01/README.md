@@ -36,8 +36,6 @@
 
 ### [11399 ATM](https://www.acmicpc.net/problem/11399) >> [Greedy.py](JY_B11399.py)
 
-### [12015 가장 긴 증가하는 부분 수열 2](https://www.acmicpc.net/problem/12015) >> [BinarySearch.py](JY_B12015_2.py)
-
 ### [12845 모두의 마블](https://www.acmicpc.net/problem/12845) >> [Greedy.py](JY_B12845.py)
 
 ### [13458 시험 감독](https://www.acmicpc.net/problem/13458) >> [Implementation.py](JY_B13458.py)
