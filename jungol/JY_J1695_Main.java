@@ -43,6 +43,7 @@ public class JY_J1695_Main {
 		System.out.println(cnt);
         ans.sort(null);
 		ans.forEach(i -> System.out.println(i));
+		br.close();
 	}
 	public static void dfs(int y, int x, int num) {
 		area[y][x] = num;

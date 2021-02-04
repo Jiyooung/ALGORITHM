@@ -25,6 +25,7 @@ public class JY_J1810_Main {
         for (int j = 0; j < 7; j++) {
             System.out.println(arr[pick[j]]);
         }
+        br.close();
     }
 
     public static void print(int[] arr, int n) {

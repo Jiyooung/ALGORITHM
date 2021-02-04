@@ -5,7 +5,7 @@ DATE : 2021.01.25
 분할정복
 */
 import java.io.BufferedReader;
-import java.io.FileInputStream;
+// import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
@@ -28,6 +28,7 @@ public class JY_B2630_Main {
 		int y = 0, x = 0;
 		divide(y, x, N);
 		System.out.printf("%d\n%d", answer[0], answer[1]);
+		br.close();
 	}
 	
 	public static void divide(int y, int x, int N) {

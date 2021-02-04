@@ -24,6 +24,7 @@ public class JY_J1335_Main {
 		int s_y = 0, s_x = 0, e_y = N-1, e_x = N-1;
 		divide(paper, s_y, s_x, e_y, e_x, N);
 		System.out.printf("%d\n%d", answer[0], answer[1]);
+		sc.close();
 	}
 	
 	public static void divide(int[][] paper, int s_y, int s_x, int e_y, int e_x, int N) {

@@ -22,6 +22,7 @@ public class JY_J1810_2_Main {
 		}
 
 		check(0, 0, 0);
+		br.close();
 	}
 
 	public static void check(int idx, int cnt, int sum) {
