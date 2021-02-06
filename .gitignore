@@ -1,10 +1,7 @@
 *.exe
 *.txt
-test.py
+__*
 
 .vscode/
-coding_test/
-__*
 .idea/
 util.js
-tmp.py
