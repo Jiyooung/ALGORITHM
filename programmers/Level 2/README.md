@@ -10,5 +10,9 @@
 
 ### [DFS/BFS > 타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) >> [DFS.py](JY_target_num.py)
 
+### [Sort > 가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746 >> [Sort.py](JY_largest_num.py)
+
+### [Sort > H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747) >> [Sort.py](JY_H_index.py)
+
 
 
