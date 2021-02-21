@@ -14,5 +14,9 @@
 
 ### [Sort > H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747) >> [Sort.py](JY_H_index.py)
 
+### [BruteForce > 소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) >> [BruteForce + permutations.py](JY_Find_prime_numbers.py)
+
+### [BruteForce > 카펫](https://programmers.co.kr/learn/courses/30/lessons/42842) >> [BruteForce.py](JY_carpet.py)
+
 
 
