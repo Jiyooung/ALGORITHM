@@ -3,8 +3,6 @@
 # DATE : 2021.02.19
 # 완전탐색
 
-import sys
-
 def solution(answers):
     answer = [0] * 3
     check = [[1, 2, 3, 4, 5], [2, 1, 2, 3, 2, 4, 2, 5],
@@ -24,7 +22,6 @@ def solution(answers):
     return answer
 
 # run test
-input = sys.stdin.readlines
 print(solution([1,2,3,4,5]))    # [1]
 print(solution([1,3,2,4,2]))    # [1,2,3]
 

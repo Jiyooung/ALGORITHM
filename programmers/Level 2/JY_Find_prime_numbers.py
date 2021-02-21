@@ -3,6 +3,7 @@
 # DATE : 2021.02.21
 # 완전탐색, 순열
 # map(''.join, itertools.permutations(a, i)) : a에서 i개 뽑은 모든 순열 반환
+
 import itertools
 
 def find(num):  # num이 소수이면 True 반환
