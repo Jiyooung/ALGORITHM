@@ -2,7 +2,7 @@
 # solved by JY
 # DATE : 2021.02.24
 # Union-Find 사용
-# parent : { name, [부모, 친구 수] }
+# parent : { name : [부모, 친구 수] }
 
 def find(p):
     if p == parent[p][0]:
