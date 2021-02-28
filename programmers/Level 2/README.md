@@ -10,7 +10,7 @@
 
 ### [DFS/BFS > 타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) >> [DFS.py](JY_target_num.py)
 
-### [Sort > 가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746 >> [Sort.py](JY_largest_num.py)
+### [Sort > 가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) >> [Sort.py](JY_largest_num.py)
 
 ### [Sort > H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747) >> [Sort.py](JY_H_index.py)
 
@@ -18,5 +18,5 @@
 
 ### [BruteForce > 카펫](https://programmers.co.kr/learn/courses/30/lessons/42842) >> [BruteForce.py](JY_carpet.py)
 
-
+### [Hash > 전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) >> [Sort.py](JY_phone_number_list.py), [Dictionary.py](JY_phone_number_list_2.py)
 

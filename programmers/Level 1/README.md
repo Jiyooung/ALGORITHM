@@ -8,3 +8,4 @@
 
 ### [BruteForce > 모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840) >> [BruteForce.py](JY_Practice_test.py)
 
+### [Hash > 완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576) >> [Dictionary.py](JY_unfinished_player.py)
