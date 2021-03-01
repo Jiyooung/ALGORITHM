@@ -22,3 +22,4 @@
 
 ### [이분탐색 > 입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238) >> [BinarySearch.py](JY_Immigration.py)
 
+### [Hash > 베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579) >> [Dictionary.py](JY_Best_album.py)
