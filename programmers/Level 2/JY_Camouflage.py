@@ -2,6 +2,7 @@
 # solved by JY
 # DATE : 2021.02.28
 # dictionary 이용
+# dic = { 종류 : [이름] }
 
 def solution(clothes):
     answer = 0
