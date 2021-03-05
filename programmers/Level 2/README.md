@@ -22,3 +22,10 @@
 
 ### [Hash > 위장](https://programmers.co.kr/learn/courses/30/lessons/42578) >> [Dictionary.py](JY_Camouflage.py)
 
+### [Stack/Queue > 다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) >> [Queue.py](JY_Truck_passing_bridge.py)
+
+### [Stack/Queue > 주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) >> [Stack.py](JY_Stock_price.py)
+
+### [Stack/Queue > 기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) >> [Queue.py](JY_Function_development.py)
+
+### [Stack/Queue > 프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) >> [Queue.py](JY_printer.py)
