@@ -29,3 +29,5 @@
 ### [Stack/Queue > 기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) >> [Queue.py](JY_Function_development.py)
 
 ### [Stack/Queue > 프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) >> [Queue.py](JY_printer.py)
+
+### [Heap > 더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) >> [Heapq.py](JY_More_spicy_2.py)
