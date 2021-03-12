@@ -26,3 +26,10 @@
 
 ### [Heap > 디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627) >> [Heapq.py](JY_Disk_controller.py)
 
+### [Heap > 이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628) >> [Heapq.py](JY_Double_PriorityQueue.py)
+
+### [Dynamic Programming > N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895) >> [DP.py](JY_Express_N.py)
+
+### [Dynamic Programming > 정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105) >> [DP.py](JY_Integer_triangle.py)
+
+### [Dynamic Programming > 등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898) >> [DP_best.py](JY_Road_to_school_2.py), [DP.py](JY_Road_to_school.py)
