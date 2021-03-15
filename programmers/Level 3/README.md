@@ -33,3 +33,6 @@
 ### [Dynamic Programming > 정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105) >> [DP.py](JY_Integer_triangle.py)
 
 ### [Dynamic Programming > 등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898) >> [DP_best.py](JY_Road_to_school_2.py), [DP.py](JY_Road_to_school.py)
+
+### [그래프 > 가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189) >> [BFS.py](JY_Farthest_node.py)
+
