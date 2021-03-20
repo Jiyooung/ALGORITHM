@@ -1,7 +1,11 @@
 # programmers L3 : 순위
 # solved by JY
 # DATE : 2021.03.17
-# 
+# 구현
+# weight[a][b] = 1 : b가 이김.
+# weight[a][b] = -1 : a가 이김
+# weight[a]를 돌면서 1이면 idx가 이긴거 -1이면 a가 이긴거
+# a한테 진 애들은 a를 이긴 애들한테도 짐
 
 def solution(n, results):
     answer = 0
@@ -13,7 +17,7 @@ def solution(n, results):
         cnt[win-1] = cnt[win-1] + 1 if cnt.get(win-1) != None else 1
         cnt[lose-1] = cnt[lose-1] + 1 if cnt.get(lose-1) != None else 1
 
-    cnt = sorted(cnt.items(), key = lambda x:x[1], reverse=True)
+    cnt = sorted(cnt.items(), key = lambda x:x[1], reverse=True)    # 경기를 많이 한 선수부터 수행
 
     for player, _ in cnt:
         win, lose = [], []
@@ -28,7 +32,7 @@ def solution(n, results):
                 weight[l][w] = 1
 
     for player in weight:
-        if player.count(0) == 1:
+        if player.count(0) == 1:    # 나를 이긴사람 + 나한테 진사람 = n-1이면 순위를 알 수 있음
             answer += 1
 
     return answer
