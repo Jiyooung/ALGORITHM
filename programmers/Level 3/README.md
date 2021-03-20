@@ -2,7 +2,7 @@
 
 ## Level 3
 
-### [2018 KAKAO BLIND RECRUITMENT > [1차] 셔틀버스](https://programmers.co.kr/learn/courses/30/lessons/17678) >> [Handling Strings.cpp](JY_shuttle_bus.cpp)
+### [2018 KAKAO BLIND RECRUITMENT > [1차] 셔틀버스](https://programmers.co.kr/learn/courses/30/lessons/17678) >> [HandlingStrings.cpp](JY_shuttle_bus.cpp)
 
 ### [2019 카카오 개발자 겨울 인턴십 > 징검다리 건너기](https://programmers.co.kr/learn/courses/30/lessons/64062) >> [BinarySearch.cpp](JY_cross_bridge.cpp)
 
@@ -35,4 +35,10 @@
 ### [Dynamic Programming > 등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898) >> [DP_best.py](JY_Road_to_school_2.py), [DP.py](JY_Road_to_school.py)
 
 ### [그래프 > 가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189) >> [BFS.py](JY_Farthest_node.py)
+
+### [그래프 > 순위](https://programmers.co.kr/learn/courses/30/lessons/49191) >> [Implementation.py](JY_ranking.py)
+
+### [2021 KAKAO BLIND RECRUITMENT > 합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413) >> [FloydWarshall.py](JY_Shared_taxi_fare.py)
+
+### [2021 KAKAO BLIND RECRUITMENT > 광고 삽입](https://programmers.co.kr/learn/courses/30/lessons/72414) >> [HandlingStrings.py](JY_Ad_insertion.py)
 

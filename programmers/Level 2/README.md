@@ -31,3 +31,7 @@
 ### [Stack/Queue > 프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) >> [Queue.py](JY_printer.py)
 
 ### [Heap > 더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) >> [Heapq.py](JY_More_spicy_2.py)
+
+### [2021 KAKAO BLIND RECRUITMENT > 메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) >> [Combinations.py](JY_Menu_renewal.py)
+
+### [2021 KAKAO BLIND RECRUITMENT > 순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) >> [BinarySearch.py](JY_Rank_search_2.py)
