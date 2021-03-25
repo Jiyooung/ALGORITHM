@@ -9,15 +9,15 @@ input = sys.stdin.readline
 T = int(input())
 for _ in range(T):
     N = int(input())
-    scores = [[0, 0] for _ in range(N)]
+    scores = [0]*(N+1)
     for idx in range(N):
-        scores[idx] = list(map(int, input().split()))
+        s1, s2 = map(int, input().split())
+        scores[s1] = s2
 
-    scores = sorted(scores)
-    mini, cnt = scores[0][1], 1
-    for score in scores[1:]:
-        if score[1] < mini:
-            mini = score[1]
+    mini, cnt = scores[1], 1
+    for score in scores[2:]:
+        if score < mini:
+            mini = score
             cnt += 1
         if mini == 1:
             break
