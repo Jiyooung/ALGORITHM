@@ -4,7 +4,13 @@
 
 ### [1541 : 잃어버린 괄호](https://www.acmicpc.net/problem/1541) >> [RegularExpressions.py](JY_B1541.py), [Implementation.py](JY_B1541_2.py)
 
+### [1700 : 멀티탭 스케줄링](https://www.acmicpc.net/problem/1700) >> [Greedy.py](JY_B1700.py)
+
+### [1744 : 수 묶기](https://www.acmicpc.net/problem/1744) >> [Greedy.py](JY_B1744.py)
+
 ### [1946 : 신입 사원](https://www.acmicpc.net/problem/1946) >> [Greedy.py](JY_B1946.py)
+
+### [1969 : DNA](https://www.acmicpc.net/problem/1969) >> [Greedy.py](JY_B1969.py)
 
 ### [2217 : 로프](https://www.acmicpc.net/problem/2217) >> [Greedy.py](JY_B2217.py)
 
