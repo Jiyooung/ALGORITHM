@@ -8,6 +8,10 @@
 
 ### [1744 : 수 묶기](https://www.acmicpc.net/problem/1744) >> [Greedy.py](JY_B1744.py)
 
+### [1783 : 병든 나이트](https://www.acmicpc.net/problem/1783) >> [Implementation.py](JY_B1783.py)
+
+### [1931 : 회의실 배정](https://www.acmicpc.net/problem/1931) >> [Greedy.py](JY_B1931.py)
+
 ### [1946 : 신입 사원](https://www.acmicpc.net/problem/1946) >> [Greedy.py](JY_B1946.py)
 
 ### [1969 : DNA](https://www.acmicpc.net/problem/1969) >> [Greedy.py](JY_B1969.py)
@@ -20,4 +24,12 @@
 
 ### [10610 : 30](https://www.acmicpc.net/problem/10610) >> [Implementation.py](JY_B10610.py)
 
+### [11000 : 강의실 배정](https://www.acmicpc.net/problem/11000) >> [Greedy.py](JY_B11000.py)
+
 ### [11047 : 동전 0](https://www.acmicpc.net/problem/11047) >> [Greedy.py](JY_B11047.py)
+
+### [11399 : ATM](https://www.acmicpc.net/problem/11399) >> [Greedy.py](JY_B11399.py)
+
+### [12845 : 모두의 마블](https://www.acmicpc.net/problem/12845) >> [Greedy.py](JY_B12845.py)
+
+### [13458 : 시험 감독](https://www.acmicpc.net/problem/13458) >> [Greedy.py](JY_B13458.py)
