@@ -33,3 +33,6 @@
 ### [12845 : 모두의 마블](https://www.acmicpc.net/problem/12845) >> [Greedy.py](JY_B12845.py)
 
 ### [13458 : 시험 감독](https://www.acmicpc.net/problem/13458) >> [Greedy.py](JY_B13458.py)
+
+### [14888 : 연산자 끼워넣기](https://www.acmicpc.net/problem/14888) >> [Recursion.py](JY_B14888.py)
+
