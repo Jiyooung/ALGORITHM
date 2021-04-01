@@ -1,7 +1,7 @@
 # baekjoon 14888 : 연산자 끼워넣기
 # solved by JY
 # DATE : 2021.03.29
-# 재귀 사용
+# 재귀 사용, 모든 경우를 확인
 
 import sys
 input = sys.stdin.readline
