@@ -18,6 +18,8 @@
 
 ### [2217 : 로프](https://www.acmicpc.net/problem/2217) >> [Greedy.py](JY_B2217.py)
 
+### [2504 : 괄호의 값](https://www.acmicpc.net/problem/2504) >> [Recursion.py](JY_B2504.py)
+
 ### [2875 : 대회 or 인턴](https://www.acmicpc.net/problem/2875) >> [Implementation.py](JY_B2875.py)
 
 ### [4796 : 캠핑](https://www.acmicpc.net/problem/4796) >> [Greedy.py](JY_B4796.py)
