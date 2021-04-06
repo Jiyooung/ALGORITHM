@@ -36,5 +36,7 @@
 
 ### [13458 : 시험 감독](https://www.acmicpc.net/problem/13458) >> [Greedy.py](JY_B13458.py)
 
+### [14719 : 빗물](https://www.acmicpc.net/problem/14719) >> [Implementation.py](JY_B14719.py)
+
 ### [14888 : 연산자 끼워넣기](https://www.acmicpc.net/problem/14888) >> [Recursion.py](JY_B14888.py)
 
