@@ -6,6 +6,8 @@
 
 ### [1197 : 최소 스패닝 트리](https://www.acmicpc.net/problem/1197) >> [Greedy-Kruskal(UnionFind).py](JY_B1197.py)
 
+### [1789 : 수들의 합](https://www.acmicpc.net/problem/1789) >> [Implementation.py](JY_B1789.py)
+
 ### [1806 : 부분합](https://www.acmicpc.net/problem/1806) >> [TwoPointer.py](JY_B1806.py)
 
 ### [1916 : 최소비용 구하기](https://www.acmicpc.net/problem/1916) >> [Dijkstra.py](JY_B1916_2.py)
