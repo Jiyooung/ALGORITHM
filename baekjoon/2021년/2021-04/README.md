@@ -10,17 +10,25 @@
 
 ### [1260 : DFS와 BFS](https://www.acmicpc.net/problem/1260) >> [DFS+BFS.py](JY_B1260.py)
 
+### [1303 : 전쟁 - 전투](https://www.acmicpc.net/problem/1303) >> [DFS.py](JY_B1303.py)
+
+### [1743 : 음식물 피하기](https://www.acmicpc.net/problem/1743) >> [DFS.py](JY_B1743.py)
+
 ### [1789 : 수들의 합](https://www.acmicpc.net/problem/1789) >> [Implementation.py](JY_B1789.py)
 
 ### [1806 : 부분합](https://www.acmicpc.net/problem/1806) >> [TwoPointer.py](JY_B1806.py)
 
 ### [1916 : 최소비용 구하기](https://www.acmicpc.net/problem/1916) >> [Dijkstra.py](JY_B1916_2.py)
 
+### [2178 : 미로 탐색](https://www.acmicpc.net/problem/2178) >> [BFS.py](JY_B2178.py)
+
 ### [2252 : 줄 세우기](https://www.acmicpc.net/problem/2252) >> [TopologicalSorting.py](JY_B2252.py)
 
 ### [2293 : 동전 1](https://www.acmicpc.net/problem/2293) >> [DP.py](JY_B2293.py)
 
 ### [2294 : 동전 2](https://www.acmicpc.net/problem/2294) >> [DP.py](JY_B2294.py)
+
+### [2606 : 바이러스](https://www.acmicpc.net/problem/2606) >> [BFS.py](JY_B2606.py)
 
 ### [2667 : 단지번호붙이기](https://www.acmicpc.net/problem/2667) >> [DFS.py](JY_B2667.py)
 
