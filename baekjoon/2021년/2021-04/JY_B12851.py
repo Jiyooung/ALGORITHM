@@ -4,6 +4,7 @@
 # BFS 알고리즘 사용
 
 from sys import stdin
+from collections import deque
 input = stdin.readline
 N, K = map(int, input().split())
 
@@ -11,11 +12,11 @@ if N >= K:
     print(N-K, 1, sep='\n')
     exit(0)
 
-que = [(N, 0)]
+que = deque([(N, 0)])
 INF = float('inf')
 visit, way = [INF]*100001, 0
 while que:
-    x, cnt = que.pop(0)
+    x, cnt = que.popleft()
     
     if x == K:
         way += 1
