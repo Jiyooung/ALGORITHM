@@ -34,7 +34,11 @@
 
 ### [3085 : 사탕 게임](https://www.acmicpc.net/problem/3085) >> [BruteForce.py](JY_B3085.py), [BruteForce.py](JY_B3085_2.py)
 
-### [12851 : 숨바꼭질 2](https://www.acmicpc.net/problem/12851) >> [BFS.py](JY_B12851.py)
+### [12851 : 숨바꼭질 2](https://www.acmicpc.net/problem/12851) >> [BFS.py](JY_B12851.py), [BFS.py](JY_B12851_2.py)
+
+### [13549 : 숨바꼭질 3](https://www.acmicpc.net/problem/13549) >> [BFS.py](JY_B13549.py)
+
+### [13913 : 숨바꼭질 4](https://www.acmicpc.net/problem/13913) >> [BFS.py](JY_B13913.py)
 
 ### [16916 : 부분 문자열](https://www.acmicpc.net/problem/16916) >> [KMP.py](JY_B16916.py)
 
