@@ -40,6 +40,8 @@
 
 ### [13913 : 숨바꼭질 4](https://www.acmicpc.net/problem/13913) >> [BFS.py](JY_B13913.py)
 
+### [14226 : 이모티콘](https://www.acmicpc.net/problem/14226) >> [BFS.py](JY_B14226.py)
+
 ### [16916 : 부분 문자열](https://www.acmicpc.net/problem/16916) >> [KMP.py](JY_B16916.py)
 
 ### [16953 : A->B](https://www.acmicpc.net/problem/16953) >> [DFS.py](JY_B16953.py)
