@@ -1,5 +1,5 @@
 /*
-baekjoon 2667 : 색종이 만들기
+baekjoon 2667 : 단지번호붙이기
 solved by JY
 DATE : 2021.01.22
 DFS

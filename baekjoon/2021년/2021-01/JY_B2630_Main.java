@@ -1,5 +1,5 @@
 /*
-baekjoon 2630 : 단지번호붙이기
+baekjoon 2630 : 색종이 만들기
 solved by JY
 DATE : 2021.01.25
 분할정복
