@@ -5,7 +5,7 @@
     💗 Member : JYSim<br>
     ⭐ Start Date : 2020. 08. 20<br>
     ⭐ Build Date : 2020. 09. 17<br>
-    ⭐ 사용 언어 : C, C++, Python, Java, Javascript, OracleSQL<br>
+    ⭐ 사용 언어 : C, C++, Python, Java, JavaScript, OracleSQL<br>
     
     JY의 알고리즘 공부 흔적 공간입니다.<br>
     다양한 알고리즘 사이트에서 여러 문제를 푼 흔적들을 남기고자 합니다.<br>
