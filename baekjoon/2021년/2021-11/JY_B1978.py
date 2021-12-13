@@ -2,7 +2,7 @@
 # solved by JY
 # DATE : 2021.11.21
 # 에라토스테네스의 체
-# 구현
+# Implementation
 
 from sys import stdin
 input = stdin.readline

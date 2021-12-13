@@ -1,7 +1,7 @@
 # baekjoon 3460 : 이진수
 # solved by JY
 # DATE : 2021.11.07
-# 구현
+# Implementation
 
 from sys import stdin
 input = stdin.readline

@@ -1,7 +1,7 @@
 # baekjoon 1292 : 쉽게 푸는 문제
 # solved by JY
 # DATE : 2021.11.21
-# 구현
+# Implementation
 
 from sys import stdin
 input = stdin.readline
