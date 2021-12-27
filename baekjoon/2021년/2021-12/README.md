@@ -16,6 +16,10 @@
 
 ### [2805 : 나무 자르기](https://www.acmicpc.net/problem/2805) >> [BinarySearch.py](JY_B2805.py)
 
+### [4375 : 1](https://www.acmicpc.net/problem/4375) >> [Implementation.py](JY_B4375.py)
+
+### [10430 : 나머지](https://www.acmicpc.net/problem/10430) >> [Implementation.py](JY_B10430.py)
+
 ### [10816 : 숫자 카드2](https://www.acmicpc.net/problem/10816) >> [Dictionary.py](JY_B10816.py)
 
 ### [10870 : 피보나치 수 5](https://www.acmicpc.net/problem/10870) >> [Recursion.py](JY_B10870.py)
