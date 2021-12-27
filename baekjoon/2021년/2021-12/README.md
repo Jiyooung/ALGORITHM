@@ -1,6 +1,6 @@
 # Baekjoon
 
-## 2021년 11월
+## 2021년 12월
 
 ### [1654 : 랜선 자르기](https://www.acmicpc.net/problem/1654) >> [BinarySearch.py](JY_B1654.py)
 
