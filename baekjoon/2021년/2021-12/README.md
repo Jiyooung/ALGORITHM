@@ -22,4 +22,6 @@
 
 ### [10816 : 숫자 카드2](https://www.acmicpc.net/problem/10816) >> [Dictionary.py](JY_B10816.py)
 
+### [10828 : 스택](https://www.acmicpc.net/problem/10828) >> [Stack.py](JY_B10828.py)
+
 ### [10870 : 피보나치 수 5](https://www.acmicpc.net/problem/10870) >> [Recursion.py](JY_B10870.py)
