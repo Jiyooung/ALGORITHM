@@ -24,4 +24,7 @@
 
 ### [10828 : 스택](https://www.acmicpc.net/problem/10828) >> [Stack.py](JY_B10828.py)
 
+### [10845 : 큐](https://www.acmicpc.net/problem/10845) >> [Deque.py](JY_B10845.py)
+
 ### [10870 : 피보나치 수 5](https://www.acmicpc.net/problem/10870) >> [Recursion.py](JY_B10870.py)
+
