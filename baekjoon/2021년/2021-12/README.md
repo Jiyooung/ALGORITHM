@@ -26,5 +26,7 @@
 
 ### [10845 : 큐](https://www.acmicpc.net/problem/10845) >> [Deque.py](JY_B10845.py)
 
+### [10866 : 덱](https://www.acmicpc.net/problem/10866) >> [Deque.py](JY_B10866.py)
+
 ### [10870 : 피보나치 수 5](https://www.acmicpc.net/problem/10870) >> [Recursion.py](JY_B10870.py)
 
