@@ -6,4 +6,4 @@
 
 ### [1747 : 소수&팰린드롬](https://www.acmicpc.net/problem/1747) >> [Implementation.py](JY_B1747.py)
 
-### [2621 : 카드게임](https://www.acmicpc.net/problem/2621) >> [Implementation.py](JY_B2621.py)
+### [2621 : 카드게임](https://www.acmicpc.net/problem/2621) >> [Implementation.py](JY_B2621.py) [Best_Answer.py](JY_B2621_2.py)
