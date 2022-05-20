@@ -11,5 +11,9 @@
 
 ### [2621 : 카드게임](https://www.acmicpc.net/problem/2621) >> [Implementation.py](JY_B2621.py) [Best_Answer.py](JY_B2621_2.py)
 
+### [2750 : 수 정렬하기](https://www.acmicpc.net/problem/2750) >> [Implementation.py](JY_B2750.py)
+
+### [2751 : 수 정렬하기 2](https://www.acmicpc.net/problem/2751) >> [Implementation.py](JY_B2751.py)
+
 ### [2816 : 디지털 티비](https://www.acmicpc.net/problem/2816) >> [Implementation.py](JY_B2816.py)
 
