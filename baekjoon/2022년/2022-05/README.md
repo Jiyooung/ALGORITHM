@@ -17,3 +17,4 @@
 
 ### [2816 : 디지털 티비](https://www.acmicpc.net/problem/2816) >> [Implementation.py](JY_B2816.py)
 
+### [11724 : 연결 요소의 개수](https://www.acmicpc.net/problem/11724) >> [UnionFind.py](JY_B11724.py), [Implementation.py](JY_B11724_2.py)
