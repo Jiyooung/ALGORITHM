@@ -17,6 +17,8 @@
 
 ### [2816 : 디지털 티비](https://www.acmicpc.net/problem/2816) >> [Implementation.py](JY_B2816.py)
 
+### [8979 : 올림픽](https://www.acmicpc.net/problem/8979) >> [Implementation.py](JY_B8979.py)
+
 ### [10430 : 나머지](https://www.acmicpc.net/problem/10430) >> [Implementation.py](JY_B10430.py)
 
 ### [10869 : 사칙연산](https://www.acmicpc.net/problem/10869) >> [Implementation.py](JY_B10869.py)
